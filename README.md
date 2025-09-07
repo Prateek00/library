@@ -1,1 +1,2 @@
-swagger document http://<IP>:8080/swagger-ui/index.html
+swagger document (running on localhost)
+http://localhost:8080/swagger-ui/index.html
