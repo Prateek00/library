@@ -1,0 +1,16 @@
+com/aura/util/UpdateBookResourceModel.class
+com/aura/util/UpdateBookResourceModel$UpdateBookResourceModelBuilder.class
+com/aura/util/BookType.class
+com/aura/util/DeleteBookResourceModel$DeleteBookResourceModelBuilder.class
+com/aura/entity/Book.class
+com/aura/repository/BookRepository.class
+com/aura/model/BookModel.class
+com/aura/model/BookModel$BookModelBuilder.class
+com/aura/util/CreateBookResourceModel.class
+com/aura/util/DeleteBookResourceModel.class
+com/aura/LibraryApplication.class
+com/aura/controller/BookController.class
+com/aura/service/BookServiceImpl.class
+com/aura/util/CreateBookResourceModel$CreateBookResourceModelBuilder.class
+com/aura/util/BookAssembler.class
+com/aura/service/BookService.class

@@ -1,0 +1,12 @@
+/Users/prateek/Desktop/projects/library/src/main/java/com/aura/LibraryApplication.java
+/Users/prateek/Desktop/projects/library/src/main/java/com/aura/controller/BookController.java
+/Users/prateek/Desktop/projects/library/src/main/java/com/aura/entity/Book.java
+/Users/prateek/Desktop/projects/library/src/main/java/com/aura/model/BookModel.java
+/Users/prateek/Desktop/projects/library/src/main/java/com/aura/repository/BookRepository.java
+/Users/prateek/Desktop/projects/library/src/main/java/com/aura/service/BookService.java
+/Users/prateek/Desktop/projects/library/src/main/java/com/aura/service/BookServiceImpl.java
+/Users/prateek/Desktop/projects/library/src/main/java/com/aura/util/BookAssembler.java
+/Users/prateek/Desktop/projects/library/src/main/java/com/aura/util/BookType.java
+/Users/prateek/Desktop/projects/library/src/main/java/com/aura/util/CreateBookResourceModel.java
+/Users/prateek/Desktop/projects/library/src/main/java/com/aura/util/DeleteBookResourceModel.java
+/Users/prateek/Desktop/projects/library/src/main/java/com/aura/util/UpdateBookResourceModel.java
