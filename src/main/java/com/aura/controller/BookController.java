@@ -78,7 +78,7 @@ public class BookController {
         return ResponseEntity.ok(bookModel);
     }
 
-    @Operation(summary = "Get paginated list of books", description = "Retrieves all books with pagination support.")
+    @Operation(summary = "Get list of all books", description = "Retrieves all books.")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Books retrieved successfully"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
@@ -124,13 +124,13 @@ public class BookController {
     @DeleteMapping(value = "/{id}")
     @Operation(summary = "Delete a book", description = "Deletes a book by its ID.")
     @ApiResponses( value = {
-            @ApiResponse(responseCode = "204", description = "Book deleted successfully"),
+            @ApiResponse(responseCode = "200", description = "Book deleted successfully"),
             @ApiResponse(responseCode = "404", description = "Book not found"),
             @ApiResponse(responseCode = "500", description = "Internal server error")
     })
     public ResponseEntity<DeleteBookResourceModel> deleteBook(@Parameter(in = ParameterIn.PATH, description = "ID of the book to delete", required = true,
                                         schema = @io.swagger.v3.oas.annotations.media.Schema())
-                                        @PathVariable Long id) {
+                                        @PathVariable("id") Long id) {
         log.info("Deleting book with ID: {}", id);
         if (!bookService.checkBookExists(id)) {
             log.error("Book with ID: {} not found", id);
